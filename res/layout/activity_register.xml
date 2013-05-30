@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名：" />
+
+        <EditText
+            android:id="@+id/r_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码：" />
+
+        <EditText
+            android:id="@+id/r_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_cf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="提交" />
+
+    <TextView
+        android:id="@+id/tv_uid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
